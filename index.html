@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VinGide.inc – Signboard &amp; Advertising Solutions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="icon" href="images/logo.jpg" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <section id="home" class="page">
+    <div class="hero">
+
+      <!-- Hero background: the VinGide sign photo, under the dark overlay -->
+      <div class="hero-slides" aria-hidden="true">
+        <span class="slide is-active" style="--img:url(images/vingide-sign.jpg);--pos:center"></span>
+      </div>
+
+      <!-- Dark overlay on top of the slideshow -->
+      <div class="hero-media" aria-hidden="true"></div>
+
+      <!-- Top bar -->
+      <header class="header">
+        <a href="#home" class="logo" aria-label="VinGide.inc home">
+          <img src="images/logo.jpg" alt="VinGide.inc" />
+        </a>
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Toggle menu" />
+        <label for="menu-toggle" class="menu-btn" aria-hidden="true"><span></span><span></span><span></span></label>
+
+        <nav class="nav">
+          <a href="#home" class="active">Home</a>
+          <a href="#about">About Us</a>
+          <a href="#work">Our Work</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+          <a href="#contact" class="btn btn-solid nav-cta">Get a Quote ↗</a>
+        </nav>
+
+        <a href="#contact" class="btn btn-solid header-cta">Get a Quote ↗</a>
+      </header>
+
+      <!-- WhatsApp pill: replace href with https://wa.me/YOURNUMBER when you have it -->
+      <a href="#contact" class="wa">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#25D366" d="M12 2a10 10 0 0 0-8.6 15L2 22l5.200-1.400A10 10 0 1 0 12 2z"/><path fill="#fff" d="M9 7.500c-.4.400-.8 1.200-.4 2.400.8 2.200 2.600 4 4.800 4.800 1.200.4 2-.1 2.400-.5l.300-1-1.900-1-.9.700c-.8-.4-1.700-1.300-2.100-2.100l.7-.9-1-1.900z"/></svg>
+        Let’s talk on WhatsApp
+      </a>
+
+      <!-- Hero content -->
+      <div class="hero-content">
+        <p class="eyebrow">Creative Signage. Quality Results.</p>
+        <h1>Signage That Makes<br />Your Business<br /><span class="accent">Stand Out.</span></h1>
+        <p class="lead">We design, manufacture and install creative signboards that bring your brand to life and attract attention.</p>
+        <div class="actions">
+          <a href="#work" class="btn btn-solid">View Our Work ↗</a>
+          <a href="#services" class="btn btn-glass">Explore Services →</a>
+        </div>
+      </div>
+
+      <!-- Hero image: the VinGide.inc illuminated signboard -->
+      <div class="showcase">
+        <div class="show-frame">
+          <figure class="show-slide is-active">
+            <img src="images/vingide-sign.jpg" alt="VinGide.inc Illuminated Signboard" fetchpriority="high" />
+            <figcaption><b>VinGide.inc Illuminated Signboard</b><small>3D LED letters</small></figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <a href="#contact" class="bubble">Hi! Looking for a signboard? Ask us for a quote.</a>
+      <span class="side" aria-hidden="true">VinGide.inc · Signage &amp; Advertising Solutions</span>
+
+      <!-- Bottom glass panel -->
+      <div class="panel">
+        <div class="panel-col">
+          <span class="icon"><svg viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.500c.700.700 1 1.500 1 2.500h6c0-1 .3-1.800 1-2.500A6 6 0 0 0 12 3z"/></svg></span>
+          <div><h3>Signage Solutions</h3><p>Creative signs designed to make your business visible.</p></div>
+        </div>
+        <div class="panel-col">
+          <span class="icon"><svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 0 18c1.100 0 2-.9 2-2 0-.6-.2-1-.5-1.400-.3-.4-.5-.8-.5-1.300 0-1.100.9-2 2-2h2.400A3.600 3.600 0 0 0 21 10.700C21 6.400 16.900 3 12 3z"/><circle cx="7.500" cy="11" r="1"/><circle cx="10" cy="7" r="1"/><circle cx="15" cy="7" r="1"/></svg></span>
+          <div><h3>Custom Branding</h3><p>Unique visual identities and custom signage for every business.</p></div>
+        </div>
+        <div class="panel-col">
+          <span class="icon"><svg viewBox="0 0 24 24"><path d="M14.700 6.300a4 4 0 0 0-5.400 5.400L3 18l3 3 6.300-6.300a4 4 0 0 0 5.400-5.400l-2.600 2.600-2.400-.6-.6-2.400z"/></svg></span>
+          <div><h3>Quality &amp; Installation</h3><p>Professional manufacturing, finishing and installation.</p></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Anchor targets for nav links (replace with real sections later) -->
+  <section id="about"></section>
+  <!-- ===== Featured Services ===== -->
+  <section id="services" class="page">
+    <div class="work">
+      <div class="work-head">
+        <div>
+          <span class="badge"><i></i>Featured Services</span>
+          <h2>Signage solutions <span class="accent">for every business.</span></h2>
+        </div>
+        <p>From glowing 3D letters to custom neon, we make it, finish it and install it.</p>
+      </div>
+      <div class="svc-grid">
+        <article class="svc">
+          <div class="svc-img"><img src="images/samples/sb-01.jpg" alt="3D Letter Signs" loading="lazy" /></div>
+          <div class="svc-body">
+            <h3>3D Letter Signs</h3>
+            <p>Bold dimensional letters and logos in metal, acrylic or steel, with a clean halo glow.</p>
+            <!-- Learn More: change href to services.html when the Services page is ready -->
+            <a href="#samples" class="btn btn-glass">Learn More →</a>
+          </div>
+        </article>
+        <article class="svc">
+          <div class="svc-img"><img src="images/samples/sb-12.jpg" alt="LED Signboards" loading="lazy" /></div>
+          <div class="svc-body">
+            <h3>LED Signboards</h3>
+            <p>Bright, energy-efficient LED boards that keep your brand visible day and night.</p>
+            <a href="#samples" class="btn btn-glass">Learn More →</a>
+          </div>
+        </article>
+        <article class="svc">
+          <div class="svc-img"><img src="images/samples/sb-02.jpg" alt="Acrylic Signboards" loading="lazy" /></div>
+          <div class="svc-body">
+            <h3>Acrylic Signboards</h3>
+            <p>Sleek, durable acrylic signs for reception walls, offices and shop fronts.</p>
+            <a href="#samples" class="btn btn-glass">Learn More →</a>
+          </div>
+        </article>
+        <article class="svc">
+          <div class="svc-img"><img src="images/samples/sb-11.jpg" alt="Neon Signs" loading="lazy" /></div>
+          <div class="svc-body">
+            <h3>Neon Signs</h3>
+            <p>Eye-catching neon-style lettering and custom designs that give your space character.</p>
+            <a href="#samples" class="btn btn-glass">Learn More →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Work gallery. Photos: images/work-1.jpg ... work-4.jpg -->
+  <section id="work" class="page">
+    <div class="work">
+      <div class="work-head">
+        <div>
+          <span class="badge"><i></i>Our Work</span>
+          <h2>Signboards we have <span class="accent">built and installed.</span></h2>
+        </div>
+        <p>Pick a photo below. Click the big photo to enlarge it.</p>
+      </div>
+      <!-- Work showcase: big photo that rotates + clickable thumbnails (script.js).
+           Click the big photo to open it in the lightbox below. -->
+      <div class="work-show" aria-roledescription="carousel" aria-label="Our work">
+        <a class="ws-frame" href="#lb-1" aria-label="View this photo larger">
+          <figure class="ws-slide is-active" style="--img:url(images/work-1.jpg)">
+            <img src="images/work-1.jpg" alt="Gold 3D Channel Letters" style="object-position:20% 40%" />
+            <figcaption><b>Gold 3D Channel Letters</b><small>Fascia &amp; lit signage</small></figcaption>
+          </figure>
+          <figure class="ws-slide" style="--img:url(images/work-2.jpg)">
+            <img src="images/work-2.jpg" alt="Illuminated Letter Installation" style="object-position:center 38%" loading="lazy" />
+            <figcaption><b>Illuminated Letter Installation</b><small>On-site installation</small></figcaption>
+          </figure>
+          <figure class="ws-slide" style="--img:url(images/work-3.jpg)">
+            <img src="images/work-3.jpg" alt="Round Illuminated Signs" style="object-position:center 42%" loading="lazy" />
+            <figcaption><b>Round Illuminated Signs</b><small>Lightbox signs</small></figcaption>
+          </figure>
+          <figure class="ws-slide" style="--img:url(images/work-4.jpg)">
+            <img src="images/work-4.jpg" alt="Large-Format Window Graphics" style="object-position:center 40%" loading="lazy" />
+            <figcaption><b>Large-Format Window Graphics</b><small>Printed posters</small></figcaption>
+          </figure>
+          <span class="ws-zoom" aria-hidden="true">&#8599;</span>
+        </a>
+        <div class="ws-thumbs">
+          <button type="button" class="ws-thumb is-active" data-index="0" aria-pressed="true" aria-label="Show Gold 3D Channel Letters">
+            <img src="images/work-1.jpg" alt="" style="object-position:20% 40%" loading="lazy" />
+            <span><b>Gold 3D Channel Letters</b><small>Fascia &amp; lit signage</small></span>
+          </button>
+          <button type="button" class="ws-thumb" data-index="1" aria-pressed="false" aria-label="Show Illuminated Letter Installation">
+            <img src="images/work-2.jpg" alt="" style="object-position:center 38%" loading="lazy" />
+            <span><b>Illuminated Letter Installation</b><small>On-site installation</small></span>
+          </button>
+          <button type="button" class="ws-thumb" data-index="2" aria-pressed="false" aria-label="Show Round Illuminated Signs">
+            <img src="images/work-3.jpg" alt="" style="object-position:center 42%" loading="lazy" />
+            <span><b>Round Illuminated Signs</b><small>Lightbox signs</small></span>
+          </button>
+          <button type="button" class="ws-thumb" data-index="3" aria-pressed="false" aria-label="Show Large-Format Window Graphics">
+            <img src="images/work-4.jpg" alt="" style="object-position:center 40%" loading="lazy" />
+            <span><b>Large-Format Window Graphics</b><small>Printed posters</small></span>
+          </button>
+        </div>
+      </div>
+      <div class="section-cta">
+        <a href="#samples" class="btn btn-solid">View All Projects ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="lightbox" id="lb-1">
+    <a class="lb-bg" href="#work" aria-label="Close"></a>
+    <figure>
+      <div class="lb-img"><span class="ph">work-1.jpg</span><span class="pic" style="--img:url(images/work-1.jpg)"></span></div>
+      <figcaption>Gold 3D Channel Letters <small>Fascia & lit signage</small></figcaption>
+    </figure>
+    <a class="lb-close" href="#work" aria-label="Close">&times;</a>
+  </div>
+  <div class="lightbox" id="lb-2">
+    <a class="lb-bg" href="#work" aria-label="Close"></a>
+    <figure>
+      <div class="lb-img"><span class="ph">work-2.jpg</span><span class="pic" style="--img:url(images/work-2.jpg)"></span></div>
+      <figcaption>Illuminated Letter Installation <small>On-site installation</small></figcaption>
+    </figure>
+    <a class="lb-close" href="#work" aria-label="Close">&times;</a>
+  </div>
+  <div class="lightbox" id="lb-3">
+    <a class="lb-bg" href="#work" aria-label="Close"></a>
+    <figure>
+      <div class="lb-img"><span class="ph">work-3.jpg</span><span class="pic" style="--img:url(images/work-3.jpg)"></span></div>
+      <figcaption>Round Illuminated Signs <small>Lightbox signs</small></figcaption>
+    </figure>
+    <a class="lb-close" href="#work" aria-label="Close">&times;</a>
+  </div>
+  <div class="lightbox" id="lb-4">
+    <a class="lb-bg" href="#work" aria-label="Close"></a>
+    <figure>
+      <div class="lb-img"><span class="ph">work-4.jpg</span><span class="pic" style="--img:url(images/work-4.jpg)"></span></div>
+      <figcaption>Large-Format Window Graphics <small>Printed posters</small></figcaption>
+    </figure>
+    <a class="lb-close" href="#work" aria-label="Close">&times;</a>
+  </div>
+
+  <!-- Signboard Samples. Photos: images/samples/sb-01.jpg ... sb-16.jpg
+       Link to this section with href="#samples". -->
+  <section id="samples" class="page">
+    <div class="work">
+      <div class="work-head">
+        <div>
+          <span class="badge"><i></i>Signboard Samples</span>
+          <h2>Designs we can <span class="accent">create for your brand.</span></h2>
+        </div>
+        <p>Tap any sample to view it larger.</p>
+      </div>
+
+      <h3 class="sample-sub">Material &amp; mounting ideas</h3>
+      <div class="sample-grid">
+          <a class="sample" href="#sb-1" aria-label="View 3D LED Backlit Signboard">
+            <img src="images/samples/sb-01.jpg" alt="3D LED Backlit Signboard" loading="lazy" />
+            <span class="s-cap"><b>3D LED Backlit Signboard</b><small>Halo-lit letters</small></span>
+          </a>
+          <a class="sample" href="#sb-2" aria-label="View Acrylic &amp; Wood Natural Design">
+            <img src="images/samples/sb-02.jpg" alt="Acrylic &amp; Wood Natural Design" loading="lazy" />
+            <span class="s-cap"><b>Acrylic &amp; Wood Natural Design</b><small>Warm interior feature wall</small></span>
+          </a>
+          <a class="sample" href="#sb-3" aria-label="View Glass &amp; Steel Corporate Sign">
+            <img src="images/samples/sb-03.jpg" alt="Glass &amp; Steel Corporate Sign" loading="lazy" />
+            <span class="s-cap"><b>Glass &amp; Steel Corporate Sign</b><small>Standoff-mounted glass</small></span>
+          </a>
+          <a class="sample" href="#sb-4" aria-label="View Modern Metal Panel Sign">
+            <img src="images/samples/sb-04.jpg" alt="Modern Metal Panel Sign" loading="lazy" />
+            <span class="s-cap"><b>Modern Metal Panel Sign</b><small>Edge-lit metal panel</small></span>
+          </a>
+          <a class="sample" href="#sb-5" aria-label="View Rustic Metal &amp; Rivet Board">
+            <img src="images/samples/sb-05.jpg" alt="Rustic Metal &amp; Rivet Board" loading="lazy" />
+            <span class="s-cap"><b>Rustic Metal &amp; Rivet Board</b><small>Corten steel &amp; brick</small></span>
+          </a>
+          <a class="sample" href="#sb-6" aria-label="View Prestige Brass &amp; Marble Board">
+            <img src="images/samples/sb-06.jpg" alt="Prestige Brass &amp; Marble Board" loading="lazy" />
+            <span class="s-cap"><b>Prestige Brass &amp; Marble Board</b><small>Premium lobby sign</small></span>
+          </a>
+          <a class="sample" href="#sb-7" aria-label="View Eco-friendly Green Moss Sign">
+            <img src="images/samples/sb-07.jpg" alt="Eco-friendly Green Moss Sign" loading="lazy" />
+            <span class="s-cap"><b>Eco-friendly Green Moss Sign</b><small>Living moss wall</small></span>
+          </a>
+          <a class="sample" href="#sb-8" aria-label="View Modern Neon &amp; Mesh Board">
+            <img src="images/samples/sb-08.jpg" alt="Modern Neon &amp; Mesh Board" loading="lazy" />
+            <span class="s-cap"><b>Modern Neon &amp; Mesh Board</b><small>Neon on mesh</small></span>
+          </a>
+      </div>
+
+      <h3 class="sample-sub">Lighting &amp; style ideas</h3>
+      <div class="sample-grid">
+          <a class="sample sq" href="#sb-9" aria-label="View Backlit Metal Letters">
+            <img src="images/samples/sb-09.jpg" alt="Backlit Metal Letters" loading="lazy" />
+            <span class="s-cap"><b>Backlit Metal Letters</b><small>Warm halo glow</small></span>
+          </a>
+          <a class="sample sq" href="#sb-10" aria-label="View Blue Neon Edge Acrylic">
+            <img src="images/samples/sb-10.jpg" alt="Blue Neon Edge Acrylic" loading="lazy" />
+            <span class="s-cap"><b>Blue Neon Edge Acrylic</b><small>Glowing outline letters</small></span>
+          </a>
+          <a class="sample sq" href="#sb-11" aria-label="View Wood &amp; Neon Script">
+            <img src="images/samples/sb-11.jpg" alt="Wood &amp; Neon Script" loading="lazy" />
+            <span class="s-cap"><b>Wood &amp; Neon Script</b><small>Engraved wood board</small></span>
+          </a>
+          <a class="sample sq" href="#sb-12" aria-label="View LED Pixel Signs">
+            <img src="images/samples/sb-12.jpg" alt="LED Pixel Signs" loading="lazy" />
+            <span class="s-cap"><b>LED Pixel Signs</b><small>Colour LED matrix</small></span>
+          </a>
+          <a class="sample sq" href="#sb-13" aria-label="View Gold Backlit Emblem">
+            <img src="images/samples/sb-13.jpg" alt="Gold Backlit Emblem" loading="lazy" />
+            <span class="s-cap"><b>Gold Backlit Emblem</b><small>Logo &amp; crest signs</small></span>
+          </a>
+          <a class="sample sq" href="#sb-14" aria-label="View Neon Acrylic Lettering">
+            <img src="images/samples/sb-14.jpg" alt="Neon Acrylic Lettering" loading="lazy" />
+            <span class="s-cap"><b>Neon Acrylic Lettering</b><small>Glowing outlines</small></span>
+          </a>
+          <a class="sample sq" href="#sb-15" aria-label="View Engraved Wood &amp; Neon">
+            <img src="images/samples/sb-15.jpg" alt="Engraved Wood &amp; Neon" loading="lazy" />
+            <span class="s-cap"><b>Engraved Wood &amp; Neon</b><small>Custom map design</small></span>
+          </a>
+          <a class="sample sq" href="#sb-16" aria-label="View LED Matrix Display">
+            <img src="images/samples/sb-16.jpg" alt="LED Matrix Display" loading="lazy" />
+            <span class="s-cap"><b>LED Matrix Display</b><small>Globe &amp; circuit style</small></span>
+          </a>
+      </div>
+    </div>
+  </section>
+
+  <div class="lightbox lb-sm" id="sb-1">
+    <a class="lb-bg" href="#samples" aria-label="Close"></a>
+    <figure>
+      <div class="lb-img"><span class="pic" style="--img:url(images/samples/sb-01.jpg)"></span></div>
+      <figcaption>3D LED Backlit Signboard <small>Halo-lit letters</small></figcaption>
+    </figure>
+    <a class="lb-close" href="#samples" aria-label="Close">&times;</a>
+  </div>
+  <div class="lightbox lb-sm" id="sb-2">
+    <a class="lb-bg" href="#samples" aria-label="Close"></a>
+    <figure>
+      <div class="lb-img"><span class="pic" style="--img:url(images/samples/sb-02.jpg)"></span></div>
+      <figcaption>Acrylic &amp; Wood Natural Design <small>Warm interior feature wall</small></figcaption>
+    </figure>
+    <a class="lb-close" href="#samples" aria-label="Close">&times;</a>
+  </div>
+  <div class="lightbox lb-sm" id="sb-3">
+    <a class="lb-bg" href="#samples" aria-label="Close"></a>
+    <figure>
+      <div class="lb-img"><span class="pic" style="--img:url(images/samples/sb-03.jpg)"></span></div>
+      <figcaption>Glass &amp; Steel Corporate Sign <small>Standoff-mounted glass</small></figcaption>
+    </figure>
+    <a class="lb-close" href="#samples" aria-label="Close">&times;</a>
+  </div>
+  <div class="lightbox lb-sm" id="sb-4">
+    <a class="lb-bg" href="#samples" aria-label="Close"></a>
+    <figure>
+      <div class="lb-img"><span class="pic" style="--img:url(images/samples/sb-04.jpg)"></span></div>
+      <figcaption>Modern Metal Panel Sign <small>Edge-lit metal panel</small></figcaption>
+    </figure>
+    <a class="lb-close" href="#samples" aria-label="Close">&times;</a>
+  </div>
+  <div class="lightbox lb-sm" id="sb-5">
+    <a class="lb-bg" href="#samples" aria-label="Close"></a>
+    <figure>
+      <div class="lb-img"><span class="pic" style="--img:url(images/samples/sb-05.jpg)"></span></div>
+      <figcaption>Rustic Metal &amp; Rivet Board <small>Corten steel &amp; brick</small></figcaption>
+    </figure>
+    <a class="lb-close" href="#samples" aria-label="Close">&times;</a>
+  </div>
+  <div class="lightbox lb-sm" id="sb-6">
+    <a class="lb-bg" href="#samples" aria-label="Close"></a>
+    <figure>
+      <div class="lb-img"><span class="pic" style="--img:url(images/samples/sb-06.jpg)"></span></div>
+      <figcaption>Prestige Brass &amp; Marble Board <small>Premium lobby sign</small></figcaption>
+    </figure>
+    <a class="lb-close" href="#samples" aria-label="Close">&times;</a>
+  </div>
+  <div class="lightbox lb-sm" id="sb-7">
+    <a class="lb-bg" href="#samples" aria-label="Close"></a>
+    <figure>
+      <div class="lb-img"><span class="pic" style="--img:url(images/samples/sb-07.jpg)"></span></div>
+      <figcaption>Eco-friendly Green Moss Sign <small>Living moss wall</small></figcaption>
+    </figure>
+    <a class="lb-close" href="#samples" aria-label="Close">&times;</a>
+  </div>
+  <div class="lightbox lb-sm" id="sb-8">
+    <a class="lb-bg" href="#samples" aria-label="Close"></a>
+    <figure>
+      <div class="lb-img"><span class="pic" style="--img:url(images/samples/sb-08.jpg)"></span></div>
+      <figcaption>Modern Neon &amp; Mesh Board <small>Neon on mesh</small></figcaption>
+    </figure>
+    <a class="lb-close" href="#samples" aria-label="Close">&times;</a>
+  </div>
+  <div class="lightbox lb-sm" id="sb-9">
+    <a class="lb-bg" href="#samples" aria-label="Close"></a>
+    <figure>
+      <div class="lb-img"><span class="pic" style="--img:url(images/samples/sb-09.jpg)"></span></div>
+      <figcaption>Backlit Metal Letters <small>Warm halo glow</small></figcaption>
+    </figure>
+    <a class="lb-close" href="#samples" aria-label="Close">&times;</a>
+  </div>
+  <div class="lightbox lb-sm" id="sb-10">
+    <a class="lb-bg" href="#samples" aria-label="Close"></a>
+    <figure>
+      <div class="lb-img"><span class="pic" style="--img:url(images/samples/sb-10.jpg)"></span></div>
+      <figcaption>Blue Neon Edge Acrylic <small>Glowing outline letters</small></figcaption>
+    </figure>
+    <a class="lb-close" href="#samples" aria-label="Close">&times;</a>
+  </div>
+  <div class="lightbox lb-sm" id="sb-11">
+    <a class="lb-bg" href="#samples" aria-label="Close"></a>
+    <figure>
+      <div class="lb-img"><span class="pic" style="--img:url(images/samples/sb-11.jpg)"></span></div>
+      <figcaption>Wood &amp; Neon Script <small>Engraved wood board</small></figcaption>
+    </figure>
+    <a class="lb-close" href="#samples" aria-label="Close">&times;</a>
+  </div>
+  <div class="lightbox lb-sm" id="sb-12">
+    <a class="lb-bg" href="#samples" aria-label="Close"></a>
+    <figure>
+      <div class="lb-img"><span class="pic" style="--img:url(images/samples/sb-12.jpg)"></span></div>
+      <figcaption>LED Pixel Signs <small>Colour LED matrix</small></figcaption>
+    </figure>
+    <a class="lb-close" href="#samples" aria-label="Close">&times;</a>
+  </div>
+  <div class="lightbox lb-sm" id="sb-13">
+    <a class="lb-bg" href="#samples" aria-label="Close"></a>
+    <figure>
+      <div class="lb-img"><span class="pic" style="--img:url(images/samples/sb-13.jpg)"></span></div>
+      <figcaption>Gold Backlit Emblem <small>Logo &amp; crest signs</small></figcaption>
+    </figure>
+    <a class="lb-close" href="#samples" aria-label="Close">&times;</a>
+  </div>
+  <div class="lightbox lb-sm" id="sb-14">
+    <a class="lb-bg" href="#samples" aria-label="Close"></a>
+    <figure>
+      <div class="lb-img"><span class="pic" style="--img:url(images/samples/sb-14.jpg)"></span></div>
+      <figcaption>Neon Acrylic Lettering <small>Glowing outlines</small></figcaption>
+    </figure>
+    <a class="lb-close" href="#samples" aria-label="Close">&times;</a>
+  </div>
+  <div class="lightbox lb-sm" id="sb-15">
+    <a class="lb-bg" href="#samples" aria-label="Close"></a>
+    <figure>
+      <div class="lb-img"><span class="pic" style="--img:url(images/samples/sb-15.jpg)"></span></div>
+      <figcaption>Engraved Wood &amp; Neon <small>Custom map design</small></figcaption>
+    </figure>
+    <a class="lb-close" href="#samples" aria-label="Close">&times;</a>
+  </div>
+  <div class="lightbox lb-sm" id="sb-16">
+    <a class="lb-bg" href="#samples" aria-label="Close"></a>
+    <figure>
+      <div class="lb-img"><span class="pic" style="--img:url(images/samples/sb-16.jpg)"></span></div>
+      <figcaption>LED Matrix Display <small>Globe &amp; circuit style</small></figcaption>
+    </figure>
+    <a class="lb-close" href="#samples" aria-label="Close">&times;</a>
+  </div>
+
+  <!-- ===== Why Choose VinGide.inc ===== -->
+  <section id="why" class="page">
+    <div class="work">
+      <div class="work-head">
+        <div>
+          <span class="badge"><i></i>Why Choose Us</span>
+          <h2>Why choose <span class="accent">VinGide.inc?</span></h2>
+        </div>
+        <p>Signage built on quality, creativity and trust.</p>
+      </div>
+      <div class="why-grid">
+        <div class="why">
+          <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l8 4v5c0 4.500-3.400 8-8 9-4.600-1-8-4.500-8-9V7z"/><path d="M9 12l2 2 4-4"/></svg></span>
+          <h3>Quality Materials</h3>
+          <p>Premium acrylic, metal and LEDs chosen to last in any weather.</p>
+        </div>
+        <div class="why">
+          <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.500c.700.700 1 1.500 1 2.500h6c0-1 .3-1.800 1-2.500A6 6 0 0 0 12 3z"/></svg></span>
+          <h3>Creative Designs</h3>
+          <p>Original concepts that capture your brand and make it memorable.</p>
+        </div>
+        <div class="why">
+          <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M14.700 6.300a4 4 0 0 0-5.400 5.400L3 18l3 3 6.300-6.300a4 4 0 0 0 5.400-5.400l-2.600 2.600-2.400-.6-.6-2.400z"/></svg></span>
+          <h3>Professional Work</h3>
+          <p>Skilled craftsmanship in every cut, weld, finish and installation.</p>
+        </div>
+        <div class="why">
+          <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 12a8 8 0 1 1-3-6.200"/><path d="M20 4v5h-5"/></svg></span>
+          <h3>Reliable Service</h3>
+          <p>Clear communication and dependable support from first call to after-care.</p>
+        </div>
+        <div class="why">
+          <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+          <h3>On-Time Delivery</h3>
+          <p>We respect your schedule and deliver and install when we promise.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Our Work Process ===== -->
+  <section id="process" class="page">
+    <div class="work">
+      <div class="work-head">
+        <div>
+          <span class="badge"><i></i>Our Work Process</span>
+          <h2>From idea to <span class="accent">installed sign.</span></h2>
+        </div>
+        <p>Four simple steps to make your brand visible.</p>
+      </div>
+      <ol class="steps">
+        <li class="step">
+          <span class="step-no">01</span>
+          <h3>Discuss Your Idea</h3>
+          <p>Tell us about your business, space and budget. We listen first.</p>
+        </li>
+        <li class="step">
+          <span class="step-no">02</span>
+          <h3>Design &amp; Approval</h3>
+          <p>We prepare a design mockup and revise it until you approve.</p>
+        </li>
+        <li class="step">
+          <span class="step-no">03</span>
+          <h3>Manufacturing</h3>
+          <p>Your sign is fabricated in-house with quality materials and checks.</p>
+        </li>
+        <li class="step">
+          <span class="step-no">04</span>
+          <h3>Installation</h3>
+          <p>Our team installs it safely and neatly on site, ready to shine.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ===== Call To Action ===== -->
+  <section id="contact" class="page">
+    <div class="cta">
+      <h2>Ready to make your <span class="accent">brand visible?</span></h2>
+      <p>Let&rsquo;s create a signboard that makes your business stand out.</p>
+      <div class="actions">
+        <a href="#contact" class="btn btn-solid">Get a Quote ↗</a>
+        <!-- EDIT: replace with https://wa.me/YOURNUMBER or your contact page -->
+        <a href="mailto:info@vingide.com" class="btn btn-glass">Contact Us →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer =====
+       EDIT ME: search for "EDIT" below to replace the placeholder phone, email,
+       address, WhatsApp number, social links and legal-page links. -->
+  <footer class="site-footer page" aria-label="Site footer">
+    <div class="footer">
+      <div class="footer-grid">
+
+        <!-- Column 1 – Company information -->
+        <div class="footer-col footer-brand">
+          <a href="#home" class="footer-logo" aria-label="VinGide.inc home">
+            <img src="images/logo.jpg" alt="VinGide.inc" />
+          </a>
+          <p>VinGide.inc designs, manufactures and installs creative signboards and advertising solutions that bring your brand to life and help your business stand out.</p>
+
+          <!-- Social media (EDIT: replace each href with your real profile URL) -->
+          <ul class="social" aria-label="VinGide.inc on social media">
+            <li>
+              <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><path d="M17.5 6.5h.01"/></svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><path d="M9.75 15.02l6-3.27-6-3.27z"/></svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Column 2 – Quick links -->
+        <nav class="footer-col" aria-labelledby="footer-links-title">
+          <h3 class="footer-title" id="footer-links-title">Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#work">Our Projects</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </nav>
+
+        <!-- Column 3 – Our services -->
+        <nav class="footer-col" aria-labelledby="footer-services-title">
+          <h3 class="footer-title" id="footer-services-title">Our Services</h3>
+          <ul class="footer-links">
+            <li><a href="#services">3D Letter Signboards</a></li>
+            <li><a href="#services">LED Signboards</a></li>
+            <li><a href="#services">Acrylic Signboards</a></li>
+            <li><a href="#services">Neon Signs</a></li>
+            <li><a href="#services">Flex Printing</a></li>
+            <li><a href="#services">Vehicle Branding</a></li>
+            <li><a href="#services">Indoor &amp; Outdoor Signage</a></li>
+          </ul>
+        </nav>
+
+        <!-- Column 4 – Contact information (EDIT: replace every placeholder) -->
+        <address class="footer-col footer-contact">
+          <h3 class="footer-title">Contact Us</h3>
+          <ul class="footer-info">
+            <li>
+              <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+              <div><small>Phone</small><a href="tel:+940000000000">+94 00 000 0000</a></div>
+            </li>
+            <li>
+              <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/><path d="M22 6l-10 7L2 6"/></svg></span>
+              <div><small>Email</small><a href="mailto:info@vingide.com">info@vingide.com</a></div>
+            </li>
+            <li>
+              <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+              <div><small>Address</small><span>Your Street Address,<br />City, Country</span></div>
+            </li>
+            <li>
+              <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg></span>
+              <div><small>WhatsApp</small><a href="https://wa.me/940000000000" target="_blank" rel="noopener noreferrer">+94 00 000 0000</a></div>
+            </li>
+          </ul>
+        </address>
+
+      </div>
+
+      <!-- Bottom bar -->
+      <div class="footer-bottom">
+        <p>&copy; 2026 VinGide.inc. All Rights Reserved.</p>
+        <ul class="footer-legal">
+          <!-- EDIT: point these to your real legal pages, e.g. privacy-policy.html -->
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms &amp; Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
