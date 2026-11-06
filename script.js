@@ -63,7 +63,13 @@
     thumb: '.ws-thumb',
     onChange: function (i, root) {
       var link = root.querySelector('.ws-frame');
-      if (link) link.setAttribute('href', '#lb-' + (i + 1));
+      if (link) {
+        link.setAttribute('href', '#lb-' + (i + 1));
+        // restart the light-sweep animation on every change
+        link.classList.remove('is-changing');
+        void link.offsetWidth;
+        link.classList.add('is-changing');
+      }
     }
   });
 })();
